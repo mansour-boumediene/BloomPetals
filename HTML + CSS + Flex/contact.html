@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
+</head>
+<header>
+    
+    <nav>
+
+        <a href="index.html" class="stylePageHome">
+            <span>Menu</span>
+        </a>
+    </nav>
+
+    <nav>
+        <a href="entreprise.html" class="stylePageEntreprise">
+            <span>Entreprise</span>
+        </a>
+    </nav>  
+
+    <nav>
+        <a href="realisations.html" class="stylePageRealisation">
+            <span>Réalisations</span>
+        </a>
+    </nav> 
+
+</header>
+<body>
+    <h1>Nous contacter</h1>
+<form action="traitetment">
+    <ul>
+        <li>
+            <form  id="selecteur" action="post"></form>
+            <label for="Civilité">Civilité</label>
+            <select name="selection" id="selctionVoyage">
+            <option value="">.</option>
+            <option value="Madame">Madame</option>
+            <option value="Monsieur">Monsieur</option>
+            <option value="Autre">Autre</option>
+        </select>
+        </li>
+
+        <li>
+            <label for="NOM">NOM</label>
+            <input type="text">
+        </li>
+    
+        <li>
+            <label for="PRENOM">PRENOM</label>
+            <input type="text">
+        </li>
+
+        <li>
+            <label for="Adresse">Adresse postale</label>
+            <input type="text">
+        </li>
+
+        <li>
+            <label for="checkbox">J'accepte la politiques de confidentialité</label>
+            <input type="checkbox">
+        </li>
+
+        <li>
+        <input type="submit" value="Envoyer le formulaire" />
+        </li>
+    </ul>
+
+</form>
+    
+</body>
+</html>

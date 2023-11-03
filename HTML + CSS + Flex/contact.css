@@ -1,0 +1,77 @@
+header{
+    background-color: green;
+    display: flex;
+    justify-content:center;
+  
+  
+}
+
+h1 {
+text-align: center;
+color: gold;
+font-style: italic;
+}
+nav {
+    padding: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+ul {
+   list-style-type: none;
+   
+}
+body {
+    background-image: url(images/pexels-vlad-chețan-3842751.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+form {
+    padding-top: 1px;
+    
+    margin-right: auto;
+    align-content: center;
+    background-color:green;
+    color: gold;
+    padding-bottom: 2px;
+    border-radius: 10% 10% 10% 10%;
+    
+}
+li {
+    
+    text-align: center;
+}
+a {
+    color: gold;
+}
+@media (max-width: 1300px) and (min-width: 100px) {
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+
+    h1{
+        height: auto;
+    }
+
+    form{ width: auto;
+
+    }
+    ul{
+        width: auto;
+    }
+
+    li{
+        width:auto ;
+    }
+
+   
+}
